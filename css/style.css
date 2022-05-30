@@ -16,8 +16,8 @@
     padding: 20px 0px 20px 0px;
 }
 
-.jumbotron {
-    padding: 70px 30px 70px 30px;
+.jumbotron {    
+    padding: 50px 30px 50px 30px;
     margin: 0px auto;
     background: #9575CD;
     color: floralwhite;
@@ -48,3 +48,18 @@ body {
 /* .modal-backdrop.show{
     display: none;
 } */
+
+.carousel {
+    background-color: #512DA8;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    min-height: 100%;
+    margin: auto;
+}

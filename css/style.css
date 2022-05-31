@@ -45,10 +45,6 @@ body {
     padding: 10px;
 }
 
-/* .modal-backdrop.show{
-    display: none;
-} */
-
 .carousel {
     background-color: #512DA8;
     margin: 0 0;
@@ -56,10 +52,27 @@ body {
 }
 
 .carousel-item {
-    height: 600px;
+    height: 900px;
 }
 
 .carousel-item img {
     min-height: 100%;
     margin: auto;
+}
+
+#login-head {
+    background-color: #512DA8;
+}
+
+#login-body {
+    background-color: #9575CD;
+}
+
+.modal-content {
+    border: #0f0f0f;
+}
+
+#carouselButton {
+    margin: auto;
+    z-index: 1;
 }
